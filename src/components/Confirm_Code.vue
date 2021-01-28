@@ -22,26 +22,32 @@ export default {
       type: Number,
       default: 40,
     },
+    // 背景颜色最小值
     backgroundColorMin: {
       type: Number,
       default: 140,
     },
+    // 背景颜色最大值
     backgroundColorMax: {
       type: Number,
       default: 250,
     },
+    // 图片宽度
     contentWidth: {
       type: Number,
       default: 220,
     },
+    // 图片高度
     contentHeight: {
       type: Number,
       default: 80,
     },
+    // 字体颜色最大值
     fontColorMax: {
       type: Number,
       default: 252,
     },
+    // 字体颜色最小值
     fontColorMin: {
       type: Number,
       default: 10,
